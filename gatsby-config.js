@@ -3,6 +3,7 @@ const config = require('./src/config');
 module.exports = {
   flags: {
     FAST_DEV: true,
+    PARALLEL_SOURCING: true,
   },
   siteMetadata: {
     title: 'Ujwal P',
