@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
@@ -189,7 +189,7 @@ const Projects = () => {
     }
   `);
 
-  const [showMore, setShowMore] = useState(false);
+  // const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
   const revealArchiveLink = useRef(null);
   const revealProjects = useRef([]);
@@ -205,10 +205,11 @@ const Projects = () => {
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
-  const GRID_LIMIT = 6;
+  const GRID_LIMIT = 3;
   const projects = data.projects.edges.filter(({ node }) => node);
-  const firstSix = projects.slice(0, GRID_LIMIT);
-  const projectsToShow = showMore ? projects : firstSix;
+  const firstThree = projects.slice(0, GRID_LIMIT);
+  const projectsToShow = firstThree;
+  // const projectsToShow = showMore ? projects : firstThree;
 
   const projectInner = node => {
     const { frontmatter, html } = node;
@@ -294,9 +295,9 @@ const Projects = () => {
         )}
       </ul>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
+      {/* <button className="more-button" onClick={() => setShowMore(!showMore)}>
         Show {showMore ? 'Less' : 'More'}
-      </button>
+      </button> */}
     </StyledProjectsSection>
   );
 };
