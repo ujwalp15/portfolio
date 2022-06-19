@@ -22,7 +22,7 @@ export default function Home({ githubProfileData }) {
 					title: "Ujwal",
 					description:
 						"A passionate Network Developer.",
-					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+					image: "https://avatars3.githubusercontent.com/u/10727542?v=4",
 					url: "https://ujwalp.netlify.app",
 					keywords: [
 						"Ujwal",
