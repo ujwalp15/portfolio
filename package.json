@@ -1,9 +1,9 @@
 {
-  "name": "ptemplate",
+  "name": "portfolio",
   "version": "0.1.0",
-  "description": "A personal website template",
-  "repository": "https://github.com/nethruster/ptemplate.git",
-  "author": "Nethruster <support@nethruster.com>",
+  "description": "A personal portfolio",
+  "repository": "https://github.com/ujwalp15/portfolio.git",
+  "author": "Ujwal <ujwalp09@gmail.com>",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack -p --mode production",

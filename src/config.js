@@ -1,65 +1,71 @@
 const profile = {
-  fullName: 'Website Owner',
-  description: 'FRONT-END DEVELOPER',
+  fullName: 'Ujwal P',
+  description: 'Software Engineer',
   // The basepath is the assets folder
   /// the file sould be imported in assets-import.js
-  avatarPath: 'avatar.svg',
+  avatarPath: 'avatar.jpeg',
   about: {
-    title: `HEY THERE! 
-    I'M WEBSITE OWNER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    title: `Hey There! 
+    I'm Ujwal P`,
+    description: `I'm passionate Network developer having an experience of different networking features with C/C++ development on linux kernel, FRR, DPDK. 
    
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.`,
+    In my free time, I love to spend time with my pets, Hima (Cat) and Oreo (Dog), tinker with IOT and learn science.`,
     findMeOn: [
       {
         iconName: 'location',
-        text: 'Location, Place',
-        url: '',
+        text: 'Bengaluru, India',
+        url: 'https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9539974,77.6309395,11z/data=!3m1!4b1!4m5!3m4!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9715987!4d77.5945627',
         hoverColor: '#546e7a'
       },
       {
         iconName: 'twitter',
-        text: '@username',
-        url: 'https://twitter.com/username',
+        text: '@sudokude',
+        url: 'https://twitter.com/sudokude',
         hoverColor: '#1da1f2'
       },
       {
         iconName: 'email',
-        text: 'email@email.com',
-        url: 'mailto://email@email.com',
+        text: 'ujwalp09@gmail.com',
+        url: 'mailto://ujwalp09@gmail.com',
         hoverColor: '#546e7a'
       },
       {
-        iconName: 'lock',
-        text: '@kuser',
-        url: 'https://keybase.io/kuser',
+        iconName: 'github',
+        text: '@ujwalp15',
+        url: 'https://github.com/ujwalp15',
         hoverColor: '#e9641c'
       }
     ]
   },
   social: [
     {
+      iconName: 'github',
+      url: 'https://github.com/ujwalp15',
+      text: "ujwalp15",
+      hoverColor: '#000'
+    },
+    {
+      iconName: 'instagram',
+      url: 'https://instagram.com/sudokude',
+      text: "ujwalp15",
+      hoverColor: '#000'
+    },
+    {
       iconName: 'twitter',
-      url: 'https://twitter.com/username',
-      text: "I'm on Twitter",
+      url: 'https://twitter.com/sudokude',
+      text: "sudokude",
       hoverColor: '#1da1f2'
     },
     {
       iconName: 'telegram',
-      url: 'https://t.me/username',
-      text: "I'm on Telegram",
+      url: 'https://t.me/sudokude',
+      text: "sudokude",
       hoverColor: '#0088cc'
     },
-    {
-      iconName: 'github',
-      url: 'https://github.com/username',
-      text: "I'm on Github",
-      hoverColor: '#000'
-    },
+    
     {
       iconName: 'email',
-      url: 'mailto:email@email.co',
+      url: 'mailto:ujwalp09@gmail.com',
       text: 'Send me an email',
       hoverColor: '#000'
     }
@@ -68,27 +74,40 @@ const profile = {
 
 const projects = [
   {
-    title: 'Project Title #1',
+    title: 'Zuko',
     img: '',
-    description: 'Lorem ipsum dolor sit amet, in nulla hendrerit ius, sed et congue graeci, qui id propriae accusata.',
-    categories: ['Sample', 'Open source', 'React'],
-    siteUrl: 'https://amazing.project.com',
-    sourceCodeUrl: 'https://github.com/user/project'
+    description: 'A surveillance platform that enables end users to report fires and helps with rescue paths.',
+    categories: ['TensorFlow', 'RPi 3', 'Python', 'Flutter'],
+    sourceCodeUrl: 'https://github.com/NullPointersInc/Zuko-Flutter'
   },
   {
-    title: 'Project Title #2',
-    img: 'https://www.nethruster.com/assets/img/icons/apple-touch-icon.png',
-    description: 'Lorem ipsum dolor sit amet, in nulla hendrerit ius, sed et congue graeci, qui id propriae accusata.',
-    categories: ['Sample', 'Freeware', 'Go'],
-    siteUrl: 'https://amazing.project.com'
+    title: 'Oculus',
+    img: '',
+    description: 'A smart wearable device that helps people with destitute of vision in day-to-day life.',
+    categories: ['TensorFlow', 'RPi 3', 'Python', 'C'],
+    sourceCodeUrl: 'https://github.com/NullPointersInc/Oculus'
   },
   {
-    title: 'Project Title #3',
-    img: 'https://www.nethruster.com/assets/img/wareader.svg',
-    description: 'Lorem ipsum dolor sit amet, in nulla hendrerit ius, sed et congue graeci, qui id propriae accusata.',
-    categories: ['Wat', 'Linux', 'LoL'],
-    sourceCodeUrl: 'https://github.com/user/:O'
-  }
+    title: 'Meow',
+    img: '',
+    description: 'An app powered by TensorFlow that takes a picture of a cat and detects its breed.',
+    categories: ['TensorFlow', 'Python', 'Flutter', 'Bash'],
+    sourceCodeUrl: 'https://github.com/ujwalp15/meow'
+  },
+  {
+    title: 'Bella',
+    img: '',
+    description: 'An assistant powered by AI and NLP that recognize command and perform tasks.',
+    categories: ['AI', 'Python', 'Java', 'Json'],
+    sourceCodeUrl: 'https://github.com/NullPointersInc/Bella-Android'
+  },
+  {
+    title: 'RadeonOS',
+    img: '',
+    description: 'A custom rom based on AOSP(Android Open Source Project) based on Android 6.0.',
+    categories: ['Makefile', 'Java', 'C', 'XML'],
+    sourceCodeUrl: 'https://github.com/RadeonOS'
+  },
 ]
 
 const formUrl = 'http://localhost:4000'
