@@ -8,7 +8,6 @@ const profile = {
     title: `Hey There! 
     I'm Ujwal P`,
     description: `I'm passionate Network developer having an experience of different networking features with C/C++ development on linux kernel, FRR, DPDK. 
-   
     In my free time, I love to spend time with my pets, Hima (Cat) and Oreo (Dog), tinker with IOT and learn science.`,
     findMeOn: [
       {
@@ -47,7 +46,7 @@ const profile = {
     {
       iconName: 'instagram',
       url: 'https://instagram.com/sudokude',
-      text: "ujwalp15",
+      text: "sudokude",
       hoverColor: '#000'
     },
     {
